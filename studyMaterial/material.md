@@ -43,7 +43,7 @@ Basically, a git flow has these branches:
 * Main branch: Where the baseline of the latest released version gets stored.
 
 Image illustrating this flow from [this post](https://nvie.com/posts/a-successful-git-branching-model/): 
-<img src="studyMaterial/git-model@2x.png">
+<img src="git-model@2x.png">
 
 ### Resources: 
 https://www.atlassian.com/es/git/tutorials/what-is-version-control
