@@ -31,13 +31,29 @@ One of git main benefit are branches, these allow independence when working on t
 
 Git also has git hooks, which are automatized ways of operating with git. Meaning that we can make a script of things to-do after or before a git command. There is a folder that gets created every time you initialize a git repository called hooks inside .git folder. There are predefined hooks, and you need to activate them to use them. You can make things as not allowing a commit unless it has more than 4 characters and less than 30 characters message.
 
+### Git branches and flow.
+
+One of git main benefit are branches, these allow independence when working on the same software, when starting a new repository, all the changes will be committed to the main branch, but creating other branches makes developing different parts at the same time easier, and you can merge your new branch with its commits to the main branch and not affect the workflow.
+
+Basically, a git flow has these branches: 
+* Feature branch: Where developers develop features.
+* Develop branch: Where developed features get collected.
+* Release branch: Branch responsible for version release.
+* Hotfix branch: Where online defects get corrected.
+* Main branch: Where the baseline of the latest released version gets stored.
+
+Image illustrating this flow from [this post](https://nvie.com/posts/a-successful-git-branching-model/): 
+<img src="studyMaterial/git-model@2x.png">
 
 ### Resources: 
 https://www.atlassian.com/es/git/tutorials/what-is-version-control
-https://devmountain.com/blog/git-vs-github-whats-the-difference/#:~:text=GitHub%E2%80%A6-,what's%20the%20difference%3F,help%20you%20better%20manage%20them.
+https://devmountain.com/blog/git-vs-github-whats-the-difference/#:~:text=GitHub%E2%80%A6-what's%20the%20difference%3F,help%20you%20better%20manage%20them.
 https://www.freecodecamp.org/espanol/news/git-stash-explicado/
 http://guides.beanstalkapp.com/version-control/common-git-commands.html
 https://losapuntesdemajo.vercel.app/
 https://www.hostinger.com.ar/tutoriales/como-usar-git-hooks#%C2%BFQue_son_los_Git_Hooks
 https://victorhckinthefreeworld.com/2022/02/08/con-git-hooks-puedes-automatizar-tareas-al-trabajar-con-git/
+https://nvie.com/posts/a-successful-git-branching-model/
+https://quangnguyennd.medium.com/git-flow-vs-github-flow-620c922b2cbd#:~:text=Unlike%20Git%2DFlow%2C%20GitHub%2D,processing%20methods%20should%20be%20similar
+https://learngitbranching.js.org/?locale=es_ES
 
